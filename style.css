@@ -1,0 +1,32 @@
+body {
+	background-color: #fff;
+}
+
+.main {
+	border-top: 3px #000 solid;
+	border-bottom: 3px #000 solid;
+	margin-top: 75px;
+	padding-left: 100px;
+	padding-right: 100px;
+	min-width: 1200px;
+	height: 400px;
+	position: relative;
+	z-index: 1;
+}
+
+.header h1{
+	text-align: center;
+	margin-top: 75px;
+}
+
+.addItems {
+	width: 50%;
+	height: 300px;
+	float: left;
+}
+
+.itemList {
+	width: 50%;
+	height: 300px;
+	float: left;
+}
