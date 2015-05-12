@@ -30,3 +30,7 @@ body {
 	height: 300px;
 	float: left;
 }
+
+.itemList p {
+	text-align: center;
+}
