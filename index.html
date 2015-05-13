@@ -3,26 +3,26 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="//code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light|Oswald:400,300,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<div class="header">
-		<h1>Shopping List Maker</h1>
+		<h1>SHOPPING LIST MAKER</h1>
 	</div>
 	<div class="main">
 		<div class="addItems">
-			<h3>INSTRUCTIONS HERE</h3>
-			<p>Rupesh - I know this doesn't look like the wireframe, I decided to move the list to the right side of this main div instead.</p>
-			<input type="test">
-			<button>Add</button>
+			<h3>INSTRUCTIONS</h3>
+			<p>Add your items in the field below</p>
+			<p>To add to your list, either press Enter or click the Add button</p>
+			<p>Click the box to check things off your list</p>
+			<p>Click the X that appears on hover to remove that item</p>
+			<input type="test" id="addTo" value="">
+			<button id="btn">ADD</button>
 		</div>
-		<div class="itemList">
-			<p>Item 1</p>
-			<p>Item 2</p>
-			<p>Item 3</p>
-			<p>Item 4</p>
-			<p>Item 5</p>
-		</div>
+		<ul id="itemList" class="ui-sortable"></ul>
 	</div>
 </body>
 </html>

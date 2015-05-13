@@ -1,0 +1,115 @@
+body {
+	background-image: url('images/bg.jpg');
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.main {
+	border-top: 3px #000 solid;
+	border-bottom: 3px #000 solid;
+	margin-top: 75px;
+	padding-left: 100px;
+	padding-right: 100px;
+	min-width: 1200px;
+	height: 400px;
+	position: relative;
+	z-index: 1;
+	background-color: #fff;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 75px;
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+	text-shadow: 2px 2px #000;
+}
+
+h3 {
+	font-family: 'Oswald', sans-serif;
+}
+
+.addItems p {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+}
+
+li p {
+	font-family: 'Shadows Into Light', sans-serif;
+	font-size: 1.4em;
+}
+
+input {
+  border: 2px #000 solid;
+  padding: 1em 2em 1em 2em;
+}
+
+button {
+  border: 2px #000 solid;
+  padding: 1em 2em 1em 2em;
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  background-color: #000;
+}
+
+button:hover {
+	color: #000;
+	background-color: #fff;
+}
+
+.addItems {
+	width: 50%;
+	height: 300px;
+	float: left;
+}
+
+#itemList {
+	width: 50%;
+	height: 300px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#itemList li {
+	text-align: center;
+	list-style: none;
+}
+
+.box {
+  	float: left;
+  	height: 20px;
+  	width: 20px;
+  	margin-top: 5px;
+  	background: url('images/checkbox.png');
+  	background-size: contain;
+}
+
+.box-checked {
+  	float: left;
+  	height: 20px;
+  	width: 20px;
+  	margin-top: 5px;
+  	background: url('images/Very-Basic-Checked-checkbox-icon.png');
+  	background-size: contain;
+}
+
+.strike {
+	text-decoration: line-through;
+}
+
+.delete {
+	float: right;
+	height: 20px;
+	width: 20px;
+	margin-top: -35px;
+	display: none;
+}
+
+.show {
+	float: right;
+	height: 20px;
+	width: 20px;
+	margin-top: -52px;
+	display: block;
+}
