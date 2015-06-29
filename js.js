@@ -2,9 +2,13 @@ $(document).ready(function(){
 
 // add list items
 	$('button').click(function() {
-		var value = $('input').val();
-		$('#itemList').append('<li><div class="box"></div><p>'+value+'</p><img class="delete" src="css/images/x-icon.png"/></li>');
-		document.getElementById('addTo').value = '';
+		if ($('input').val().length > 0){
+			var value = $('input').val();
+			$('#itemList').append('<li><div class="box"></div><p>'+value+'</p><img class="delete" src="css/images/x-icon.png"/></li>');
+			document.getElementById('addTo').value = '';
+		} else {
+			alert('Enter your items in the field!');
+		}
 	});
 
 // cross off list items
@@ -33,5 +37,8 @@ $(document).ready(function(){
 			$('button').click();
 		};
 	});
+
+// sortable
+	$('#itemList').sortable({ axis: "y" });
 
 });
